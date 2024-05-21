@@ -1,0 +1,15 @@
+body{
+    background-color: beige;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ingredients{
+    shape-image-threshold: initial;
+}
+img {
+    width: 200px; /* Set the width to 200 pixels */
+    height: auto; /* Adjust the height automatically to maintain the aspect ratio */
+  }
+  
