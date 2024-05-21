@@ -3,15 +3,15 @@ body{
     font-size: large;
     font-weight: bold;
     font-style: italic;
+    text-align: center;
 }
 
 .ingredients{
     shape-image-threshold: initial;
-    text-align: left;
+    
 }
 img {
     width: 200px; /* Set the width to 200 pixels */
     height: auto; /* Adjust the height automatically to maintain the aspect ratio */
   }
 
-  
