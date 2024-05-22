@@ -14,4 +14,22 @@ img {
     width: 200px; /* Set the width to 200 pixels */
     height: auto; /* Adjust the height automatically to maintain the aspect ratio */
   }
+  .rating {
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 2em;
+    color: #d3d3d3;
+    cursor: pointer;
+}
+
+.star:hover, .star:hover ~ .star {
+    color: #ffc107;
+}
+/* Responsive design */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
 
